@@ -1,0 +1,5 @@
+# English strings go here for Rails i18n
+en:
+  label_cj_custom_js: "Custom JS"
+  help_cj_js: "Input JavaScript to customize your Redmine instance"
+

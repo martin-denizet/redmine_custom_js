@@ -1,0 +1,32 @@
+= Redmine Custom JS plugin
+
+== Feature
+
+* Allows to input JavaScript to customize Redmine
+* Hey, that's all for now!
+
+== Compatibility
+
+Redmine 2.1.x ~ 2.5.x stable
+
+Tested on:
+* 2.5.0
+
+== Downloading and installing the plugin
+
+First download the plugin using git, open a terminal in your Redmine installation directory:
+
+<tt>git clone git@github.com:martin-denizet/redmine_custom_js.git ./plugins/</tt>
+
+The installation is now finished and you will be able to use the plugin after you restart your Redmine instance.
+
+No need to migrate the database!
+
+== Credits
+
+Thank to CodeMirror for their very cool editor! http://codemirror.net/
+
+== License
+
+GPLv2
+

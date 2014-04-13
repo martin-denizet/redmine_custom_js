@@ -1,0 +1,17 @@
+<%= stylesheet_link_tag 'codemirror', :plugin => :redmine_custom_js %>
+<%= javascript_include_tag 'codemirror-compressed', :plugin => :redmine_custom_js %>
+
+<p>
+  <label><%= l(:label_cj_custom_js) %></label>
+  <%= text_area_tag 'settings[js]', @settings[:js] %>
+  <em class="info"> <%= l(:help_cj_js) %></em>
+</p>
+
+<script type="text/javascript">
+    var myCodeMirror = CodeMirror.fromTextArea(document.getElementById("settings_js"), {
+        mode: "javascript",
+        smartIndent: true,
+        lineNumbers: true,
+        matchBrackets: true
+    });
+</script>
