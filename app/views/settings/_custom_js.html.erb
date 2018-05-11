@@ -3,7 +3,7 @@
 
 <p>
   <label><%= l(:label_cj_custom_js) %></label>
-  <%= text_area_tag 'settings[js]', @settings[:js] %>
+  <%= text_area_tag 'settings[js]', @settings['js'], escape: false %>
   <em class="info"> <%= l(:help_cj_js) %></em>
 </p>
 
