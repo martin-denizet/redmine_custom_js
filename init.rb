@@ -10,7 +10,7 @@ Redmine::Plugin.register :redmine_custom_js do
 
 
   settings :default => {
-      :js => '',
+      'js' => '//Write your JS code here',
   },
   :partial => 'settings/custom_js'
 
