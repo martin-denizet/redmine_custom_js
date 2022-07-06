@@ -20,11 +20,10 @@ I bare no responsibility in case of misuse of this plugin.
 
 ## Compatibility
 
-Redmine 2.1.x ~ 3.4.x stable
+Redmine 5.0.2 stable
 
 Tested on:
-* 3.4.5
-* 2.5.0
+* 5.0.2
 
 ## Downloading and installing the plugin
 
@@ -47,6 +46,7 @@ Original plugin: @martin-denizet
 Code contributions:
 * @namezero111111
 * @virtualmarc  
+* @gong-bao-chicken
 
 Thank to CodeMirror for their very cool editor! http://codemirror.net/ (MIT license)
 
