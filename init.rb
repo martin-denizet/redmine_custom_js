@@ -1,10 +1,12 @@
-require_dependency 'redmine_custom_js/hooks'
+# frozen_string_literal: true
+
+loader = RedminePluginKit::Loader.new plugin_id: 'redmine_custom_js'
 
 Redmine::Plugin.register :redmine_custom_js do
   name 'Redmine Custom JS plugin'
-  author 'Martin DENIZET'
+  author 'Philipp Hilpert'
   description 'Allows to insert custom JavaScript in Redmine'
-  version '0.1.1'
+  version '1.0.0'
   url 'https://github.com/martin-denizet/redmine_custom_js'
   author_url 'http://martin-denizet.com'
 
@@ -14,5 +16,6 @@ Redmine::Plugin.register :redmine_custom_js do
   },
   :partial => 'settings/custom_js'
 
-
 end
+
+RedminePluginKit::Loader.persisting { loader.load_model_hooks! }
