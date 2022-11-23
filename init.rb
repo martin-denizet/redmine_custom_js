@@ -1,4 +1,4 @@
-require_dependency 'redmine_custom_js/hooks'
+require File.expand_path 'lib/redmine_custom_js/hook_listener', __dir__
 
 Redmine::Plugin.register :redmine_custom_js do
   name 'Redmine Custom JS plugin'
