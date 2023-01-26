@@ -20,17 +20,18 @@ I bare no responsibility in case of misuse of this plugin.
 
 ## Compatibility
 
-Redmine 2.1.x ~ 3.4.x stable
+Redmine 3.4.x - 5.0.2 stable
 
 Tested on:
+* 5.0.2
+* 4.2.2
 * 3.4.5
-* 2.5.0
 
 ## Downloading and installing the plugin
 
 First download the plugin using git, open a terminal in your Redmine installation directory:
 
-<tt>git clone git@github.com:martin-denizet/redmine_custom_js.git ./plugins/</tt>
+<tt>git clone https://github.com/m3rtl/redmine_custom_js.git</tt>
 
 The installation is now finished and you will be able to use the plugin after you restart your Redmine instance.
 
